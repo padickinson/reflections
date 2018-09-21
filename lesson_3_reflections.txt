@@ -1,2 +1,6 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 A: When collaboating with others, or wanting to make code publicly available. Also useful for keeping a remote copy of work in the cloud to avoid mishaps!
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A: WHen collaborating, you may not be certain exactly what's in the remote repository, and pulling from it may cause unnecessary merge conflicts. 
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: By having a local copy of the remote state, we can work offline and see and compare changes we make. Later, we can update the local copy to bring local and remote versions into sync.
